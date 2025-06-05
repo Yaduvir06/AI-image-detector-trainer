@@ -21,3 +21,23 @@ tqdm (for progress bars)
 matplotlib (for plotting, e.g., confusion matrices)
 
 scikit-learn (for metrics like accuracy, precision, recall, F1-score)
+
+# File structure
+archive/
+  Midjourney_Exp2/
+    train/
+      FAKE/
+      REAL/
+    valid/
+      FAKE/
+      REAL/
+    test/
+      FAKE/
+      REAL/
+model.py
+
+predict.py
+
+train.py
+
+utils.py
